@@ -14,7 +14,16 @@ toHtml:{
     .h.htc[`html].h.htc[`head;.h.htc[`style]style],.h.htc[`body]x
     }
 
-
-  
-/ send html
+/ send html email
 { [to;from;msg]
+
+
+/ 
+
+/ ipc send async
+
+/ load from fifo
+
+/ pivot table
+
+/ namespace lookup
