@@ -26,3 +26,6 @@ comb:{{raze x{x,/:y where y>max x}\:y}[;y]/[x-1;y]};
 
 / permutations
 perm:{{raze x{x,/:y except x}\:y}[;y]/[x-1;y]};
+
+/ pandigital
+pandigital:{ all(y +til count l) in l:10 vs x};
